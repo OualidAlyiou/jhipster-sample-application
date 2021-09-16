@@ -1,0 +1,25 @@
+
+   
+ 
+   entity Group {
+   name String unique,
+   isDefault Boolean
+}
+
+relationship ManyToOne {
+Group{internalUser} to User
+}
+
+
+
+// Set pagination options
+paginate Group with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
