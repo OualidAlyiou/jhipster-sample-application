@@ -1,0 +1,26 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "group": {
+      "home": {
+        "title": "Groups",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Group",
+        "createOrEditLabel": "Créer ou éditer un Group",
+        "notFound": "Aucun Group trouvé"
+      },
+      "created": "Un nouveau Group a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Group avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Group avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Group {{ id }} ?"
+      },
+      "detail": {
+        "title": "Group"
+      },
+      "id": "ID",
+      "name": "Name",
+      "isDefault": "Is Default",
+      "internalUser": "Internal User"
+    }
+  }
+}
